@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">library</string>
+
+    <string name="edit_confirm">确定</string>
+    <string name="label_hint">请输入个性化标签</string>
+    <string name="label_stamp">盖章</string>
+</resources>

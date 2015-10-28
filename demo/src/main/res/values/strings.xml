@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">创意截屏</string>
+    <string name="action_capture">Capture</string>
+    <string name="waiting_hint">请稍候...</string>
+    <string name="image_save_error">图片保存错误</string>
+
+</resources>

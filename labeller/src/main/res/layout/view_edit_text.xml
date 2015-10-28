@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_gray"
+    android:minHeight="@dimen/min_space"
+    android:paddingBottom="@dimen/space_middle"
+    android:paddingTop="@dimen/space_middle">
+
+    <ImageView
+        android:id="@+id/iv_cancel"
+        android:layout_width="@dimen/min_space"
+        android:layout_height="@dimen/min_space"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:scaleType="center"
+        android:src="@drawable/ic_cancel_selector" />
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:minHeight="@dimen/min_space"
+        android:minWidth="@dimen/min_space"
+        android:text="@string/edit_confirm"
+        android:textColor="@color/btn_color_selector" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/min_space"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/btn_confirm"
+        android:layout_toRightOf="@id/iv_cancel"
+        android:background="@drawable/edit_round_border"
+        android:paddingLeft="@dimen/space_middle"
+        android:paddingRight="@dimen/space_middle">
+
+        <TextView
+            android:id="@+id/tv_count"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/space_middle"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/tv_edit_fake"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_toLeftOf="@id/tv_count"
+            android:background="@null"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/et_label_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_toLeftOf="@id/tv_count"
+            android:background="@null"
+            android:hint="@string/label_hint"
+            android:textSize="@dimen/ts_13"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+</RelativeLayout>

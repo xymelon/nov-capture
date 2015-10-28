@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray_light">#cccccc</color>
+    <color name="gray_dark">#b9b9b9</color>
+    <color name="stamp_text_red">#C82038</color>
+    <color name="bg_gray">#f0f0f0</color>
+    <color name="bg_green">#0abc63</color>
+    <color name="dark_green">#dd209c61</color>
+    <color name="bg_input_gray">#f3f3f3</color>
+    <color name="enabled_false_gray">#bbbbbb</color>
+    <color name="transparent_half">#b0000000</color>
+</resources>
