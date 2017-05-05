@@ -1,7 +1,6 @@
 # 仿腾讯新闻创意截屏
-[![Release](https://jitpack.io/v/xymelon/richtext.svg)](https://jitpack.io/#xymelon/richtext)
 
-主要模仿腾讯创意截屏功能，添加自定义标签，可单双手随意旋转、拖动、放大等。可以下载库中novcapture_demo.apk试试。
+主要模仿腾讯创意截屏功能，添加自定义标签，可单双手随意旋转、拖动、放大，修改标签内容等，非常流畅。感兴趣的同学可以下载库中novcapture_demo.apk试试。
 详细介绍：<a href="http://www.xycoding.com/articles/2015/10/27/android-novcapture/" target="_blank">http://www.xycoding.com/articles/2015/10/27/android-novcapture/</a>
 
 <img src="novcapture.gif"/>
